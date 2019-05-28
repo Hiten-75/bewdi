@@ -1,0 +1,351 @@
+body {
+  margin: 0;
+  background-color: #f2f2f0; 
+}
+
+hr{
+color: #048998;
+width: 50%;
+margin: 20px auto;
+
+}
+h1{
+  text-align: center;
+ 
+  font-size: 400%;
+}
+h2{
+  text-align: center;
+  color: #048998;
+  font-size: 45px;
+}
+
+h3{
+  
+  color: #048998;
+  font-size: 30px;
+  
+}
+
+p{
+  color: #048998;
+  font-size: 25px;
+
+}
+.nav{
+  background-color: #41AAA8;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #41AAA8;
+  width:70%;
+
+}
+
+ul.topnav li {
+  float: right;
+  
+}
+
+ul.topnav li a {
+  display: block;
+  color: #105E62;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+
+}
+
+ul.topnav li a:hover:not(.active) {color: #A2EAE2;}
+
+ul.topnav li a.active {color: #105E62;}
+
+ul.topnav li.right {float: right;}
+
+ul.topnav li.left {float: left;}
+
+.mascot{
+  border-radius: 50%;
+  width: 15%;
+  margin: 2px;
+  
+}
+.top-container{
+  
+  font-family: cursive;
+  background-color: #D7F7F5;
+  color: #048998;
+}
+.up-container{
+  
+  font-family: cursive;
+  background-color: #D7F7F5;
+  color: #048998;
+  width:60%;
+  margin: auto;
+}
+.middle-container{
+ 
+  
+  font-family: cursive;
+  width:60%;
+  margin: auto;
+}
+.bottom-container{
+  font-family: cursive;
+  width:60%;
+  margin: auto;
+}
+.land
+{
+ 
+  position: relative;
+  left:300px;
+  color: #048998;
+}
+.sun
+{
+  position: relative;
+  left:1000px;
+  width:7%;
+  margin: 20px 0 0;
+}
+.soti{
+  float: left;
+ width: 20%;
+  border-radius: 50%;
+  margin:0 50px 0 0;
+}
+.khana{
+  float: right;
+ width: 20%;
+  border-radius: 50%;
+  margin: 0 0 0 50px;
+}
+
+.skill-row{
+  text-align: left;
+  margin:100px 0 100px;
+  
+}
+
+.center{
+  text-align: center;
+}
+
+.hey{
+  text-align: center;
+  border-radius: 50%;
+  width: 20%;
+
+}
+.harsh{
+  text-align: center;
+  margin: 50px auto 50px;
+
+}
+.profile{
+  margin: auto;
+  text-align: center;
+}
+
+
+
+/*---------------------------------------------------------------------slideshow styling--------------------------------------------*/
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  width: 40%;
+  margin: auto;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+  width: 60%;
+  margin: auto;
+
+}
+
+.row:after {
+  content: "";
+  display: table;
+ 
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 14.28%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.align{
+  width: 60%;
+  margin: auto;
+}
+
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+/*---------------------------------------------------------------------------------------------------------------*/
+.row1{
+  width: 50%;
+  margin: auto;
+}
+
+/* Three columns side by side */
+.column1{
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/*------------------------------------------------Button Styling-----------------------------------------------------------------------------------*/
+.butn {
+  background: #b0f4e6;
+  background-image: -webkit-linear-gradient(top, #b0f4e6, #67eaca);
+  background-image: -moz-linear-gradient(top, #b0f4e6, #67eaca);
+  background-image: -ms-linear-gradient(top, #b0f4e6, #67eaca);
+  background-image: -o-linear-gradient(top, #b0f4e6, #67eaca);
+  background-image: linear-gradient(to bottom, #b0f4e6, #67eaca);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #105e62;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width:5%;
+  margin: 0 40% 0 40%;
+}
+
+.butn:hover {
+  background: #c8E6f5;
+  background-image: -webkit-linear-gradient(top, #c8E6f5, #00b7e8);
+  background-image: -moz-linear-gradient(top, #c8E6f5, #00b7e8);
+  background-image: -ms-linear-gradient(top, #c8E6f5, #00b7e8);
+  background-image: -o-linear-gradient(top, #c8E6f5, #00b7e8);
+  background-image: linear-gradient(to bottom, #c8E6f5, #00b7e8);
+  text-decoration: none;
+}
